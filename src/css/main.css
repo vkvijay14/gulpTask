@@ -1,0 +1,21 @@
+main {
+	float: left;
+	margin: 30px 20px;
+}
+
+h2 {
+	color: green;
+}
+
+main .car {
+	width: 500px;
+	height: 300px;
+	transition: .5s all;
+	cursor: pointer;
+}
+
+.transition {
+	transform: scale(2);
+}
+
+

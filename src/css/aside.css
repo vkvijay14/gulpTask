@@ -1,0 +1,44 @@
+aside {
+	width: 400px;
+	float: left;
+	text-align: center;
+}
+
+aside ul {
+	margin-bottom: 30px;
+}
+
+aside li {
+	list-style-type: none;
+}
+
+aside a {
+	text-decoration: none;
+	padding: 10px;
+	margin-top: 10px;
+	color: #573E23;
+	background: #f6be00;
+	display: block;
+} 
+
+aside p {
+	border: 1px solid #888;
+	text-align: justify;
+	display: none;
+}
+
+.readMore {
+	cursor: pointer;
+	padding: 10px 20px;
+	color: #f6be00;
+	background: #573E23;
+	outline: none;
+	border: 1px solid #f6be00;
+}
+
+.readMore:hover {
+	color: #573E23;
+	background: #f6be00;
+	border: 1px solid #573E23; 
+}
+
