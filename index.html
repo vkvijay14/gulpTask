@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="src\css\header.css">
 	<link rel="stylesheet" href="src\css\aside.css">
 	<link rel="stylesheet" href="src\css\main.css">
+	<link rel="stylesheet" href="src\css\form.css">
 	<!-- /CSS FILES -->
 	<!-- FONTS -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -58,6 +59,7 @@
 		</ul>
 		<button class="readMore">View Detail</button>
 	</aside>
+	<!-- /ASIDE -->
 	<main>
 		<h2>New technics used to catch street dogs....</h2>
 		<figure>
@@ -67,16 +69,34 @@
 		<figure>
 		<img class="car"src="src/images/car-2.jpg" alt="car2">
 		<figcaption>image:1 old car since 1980</figcaption>
-	</figure>
-	
+		</figure>
 	</main>
-	<!-- /ASIDE -->
+
+		<!-- FORM -->
+	<form action="#" class="user-detail">
+		<label for="userName">Enter your Name :</label>
+		<input type="text" name="userName" id="userName" autocomplete="off">
+		<h5 class="usercheck">** please enter name</h5>
+		<label for="password">Enter Password :</label>
+		<input type="password" name="pass" id="password" autocomplete="off">
+		<h5 class="userpass">** please enter password</h5>
+		<label for="conPass">Re-Enter Password :</label>
+		<input type="password" name="pass" id="conPass" autocomplete="off">
+		<h5 class="userconpass">** password not matched</h5>
+	<!-- 	<label for="email">Enter Email :</label>
+		<input type="text" name="email" id="email" autocomplete="off">
+		<h5 class="useremail">** please enter valid email</h5>
+		<label for="D.O.B">Your Age :</label> -->
+		<input class="subButton" type="submit" name="btn" id="subButton">
+	</form>
+	<!-- /FORM -->
 
 	<!-- JAVASCRIPT -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script type="text/javascript" src="src\js\header.js"></script>
 	<script type="text/javascript" src="src\js\aside.js"></script>
 	<script type="text/javascript" src="src\js\main.js"></script>
+	<script type="text/javascript" src="src\js\regform.js"></script>
 	<!-- /JAVASCRIPT -->
 </body>
 </html>
