@@ -1,0 +1,26 @@
+.user-detail {
+	float: left;
+	background: #f6be00;
+	padding: 20px;
+	margin: 10px;
+}
+
+.user-detail input {
+	display: block;
+	width: 400px;
+	padding: 5px;
+	font-size: 18px;
+	outline: none;
+	background: #FDFED7;
+}
+
+.user-detail .subButton {
+	width: 100px;
+	margin: 0 auto;
+	cursor: pointer;
+	border: none;
+}
+
+.user-detail h5 {
+	color: red;
+}

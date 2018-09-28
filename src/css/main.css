@@ -12,10 +12,11 @@ main .car {
 	height: 300px;
 	transition: .5s all;
 	cursor: pointer;
+	overflow: hidden; 
 }
 
 .transition {
-	transform: scale(2);
+	transform: scale(1.2);
 }
 
 
